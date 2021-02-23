@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "rs-blockfolder/rs-blockfolder",
+	"title": "Test",
+	"category": "widgets",
+	"icon": "admin-users",
+	"description": "Test block",
+	"textdomain": "rs-blockfolder",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

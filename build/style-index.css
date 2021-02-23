@@ -1,0 +1,125 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-rs-blockfolder-test {
+  border: 0.1em solid #aaaaaa;
+  border-radius: 0.5em;
+  color: black;
+  margin: 0 auto;
+  background-color: #F3F3F3;
+  padding: 20px;
+}
+.wp-block-rs-blockfolder-test .stars {
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 0.5em;
+  margin-top: 0.5em;
+  color: gold;
+}
+.wp-block-rs-blockfolder-test .stars select {
+  width: 10em;
+}
+.wp-block-rs-blockfolder-test .quote {
+  width: 100%;
+  padding: 1.5em;
+  line-height: 1.5;
+}
+.wp-block-rs-blockfolder-test .quote-profile {
+  background-color: white;
+  border-radius: 0 0 0.5em 0.5em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wp-block-rs-blockfolder-test .quote-profile .photo img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+.wp-block-rs-blockfolder-test .quote-profile .author, .wp-block-rs-blockfolder-test .quote-profile .location {
+  margin: 0;
+  text-align: right;
+  font-weight: 700;
+}
+.wp-block-rs-blockfolder-test .quote-profile .location {
+  font-weight: 300;
+  font-size: 0.7em;
+}
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-rs-blockfolder-employeebio {
+  padding: 0px;
+  background-color: white;
+  margin: 0;
+}
+.wp-block-rs-blockfolder-employeebio.light {
+  background-color: white;
+  color: black;
+}
+.wp-block-rs-blockfolder-employeebio.dark {
+  background-color: #2b2b2b;
+  color: white;
+}
+.wp-block-rs-blockfolder-employeebio.dark textarea {
+  color: black;
+}
+.wp-block-rs-blockfolder-employeebio.dark .on {
+  background-color: black;
+  color: white;
+}
+.wp-block-rs-blockfolder-employeebio.dark .on textarea {
+  color: black;
+}
+.wp-block-rs-blockfolder-employeebio .off {
+  display: none;
+}
+.wp-block-rs-blockfolder-employeebio .on {
+  background-color: lightgrey;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.wp-block-rs-blockfolder-employeebio .card {
+  margin: 0;
+  padding: 0;
+  max-width: unset;
+}
+.wp-block-rs-blockfolder-employeebio .radiusOn img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin-right: 2em;
+}
+.wp-block-rs-blockfolder-employeebio .radiusOff img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 2em;
+}
+.wp-block-rs-blockfolder-employeebio .cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+}
+.wp-block-rs-blockfolder-employeebio .block-editor .block-editor-plain-text {
+  border-bottom: 2px solid black;
+}
+.wp-block-rs-blockfolder-employeebio .bio {
+  border-bottom: 1px solid black;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
